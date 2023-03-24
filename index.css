@@ -1,0 +1,276 @@
+/*CSS Reset*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	padding-top: 50px;
+	background-color: black !important;
+}
+
+/*Navbar CSS*/
+.navbar {
+	background-color: black; !important;
+}
+
+.navbar-brand {
+	font-family: 'DM Serif Display', serif;
+	font-weight: bold;
+	color: #FFBC42 !important;
+}
+
+.nav-link {
+	font-family: 'Merriweather', serif;
+	color:  #fffdd0 !important;
+}
+
+#contact-button {
+	font-family: 'Merriweather', serif;
+	color: #f6f7eb !important;
+	background-color: #000080 !important;
+}
+
+#contact-button:hover {
+	background-color: #865DFF !important;
+	transition: 0.7s;
+}
+
+#contact-button:active {
+	background-color: #5B8FB9 !important;
+}
+
+#contact-text {
+	font-family: 'Merriweather', serif;
+	color: #f6f7eb !important;
+}
+/*End of Navbar CSS*/
+
+/*Home Section CSS*/
+#intro {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	margin-bottom: 5px;
+	color: gray !important;
+}
+
+#created {
+	font-family: 'Playfair Display SC', serif;
+	font-weight: bold;
+	font-size: 12vw;
+	color: #e8e8e8 !important;
+}
+
+#with {
+	font-family: 'Playfair Display SC', serif;
+	font-weight: bold;
+	font-size: 12vw;
+	color: #e8e8e8 !important;
+}
+
+#time {
+	font-family: 'Playfair Display SC', serif;
+	font-weight: bold;
+	font-size: 12vw;
+	color: #ccccff !important;
+}
+
+#effort {
+	font-family: 'Playfair Display SC', serif;
+	font-weight: bold;
+	font-size: 12vw;
+	color: #ccccff !important;
+}
+/*End of Home Section CSS*/
+
+/*About Me Section CSS*/
+#about-me-head {
+	font-family: 'DM Serif Display', serif;
+	font-weight: bold;
+	font-size: 8vw;
+	color: white;
+}
+
+#name-info {
+	font-size: 24px;
+	color: #FFBC42 !important;
+}
+
+#about-me-info {
+	color: white !important;
+	font-family: 'Raleway', sans-serif;
+}
+/*End of About Me Section CSS*/
+
+/*Project Section CSS*/
+#projects-head {
+	font-family: 'DM Serif Display', serif;
+	font-weight: bold;
+	font-size: 8vw;
+	color: white;
+}
+
+.card {
+	background-color: #4169E1 !important;
+}
+
+.card-title {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color: #FFFDD0;
+	font-size: 25px;
+}
+
+.card-text {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 18px;
+}
+
+.card-img-top {
+	transition: transform .2s;
+}
+
+.card-img-top:hover {
+  transform: scale(1.1); 
+}
+/*End of Project Section CSS*/
+
+/*Contact Section*/
+#contact-head {
+	font-family: 'DM Serif Display', serif;
+	font-weight: bold;
+	font-size: 8vw;
+	color: white;
+}
+
+#fb-button {
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	font-size: 24px;
+	background-color: #4267B2;
+}
+
+#fb-button:hover {
+	background-color: #865DFF;
+	transition: 0.7s;
+}
+
+#fb-button:active {
+	background-color: #5B8FB9;
+}
+
+#ig-button {
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	font-size: 24px;
+  	background-image: linear-gradient(to bottom right, #833AB4, #E1306C, #FCAF45);
+}
+
+#ig-button:hover {
+	background: #865DFF;
+	transition: 0.7s;
+}
+
+#ig-button:active {
+	background: #5B8FB9;
+}
+
+#link-button {
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	font-size: 24px;
+	background-color: #0072b1;
+}
+
+#link-button:hover {
+	background-color: #865DFF;
+	transition: 0.7s;
+}
+
+#link-button:active {
+	background-color: #5B8FB9;
+}
+
+#form {
+	background-color: black !important;
+}
+
+#name-label {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+#name-input {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+}
+
+
+#send-button {
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	font-size: 24px;
+	background-color: #519872 !important;
+}
+
+#send-button:hover {
+	background-color: #865DFF !important;
+	transition: 0.7s;
+}
+
+#send-button:active {
+	background-color: #5B8FB9 !important;
+}
+
+/*End of Contact Section*/
+
+/*Footer Section*/
+#footer {
+	background-color: black !important;
+}
+
+#text-footer {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: gray;
+}
+
+#back-to-top {
+	color: gray;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+}
+/*End of Footer Section*/
+
+/*Modal CSS*/
+.modal-title {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+
+}
+
+.modal-body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+#modal-button {
+	background-color: #E5E5CB;
+	color: white;
+	border: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+#modal-button:hover {
+	background-color: #865DFF !important;
+	transition: 0.7s;
+}
+
+#modal-button:active {
+	background-color: #5B8FB9 !important;
+}
+/*End of Modal CSS*/
